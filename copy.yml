@@ -1,9 +1,6 @@
 ---
 - hosts: all
   remote_user: root
-  become: true
-  become_method: sudo
-  gather_facts: yes
   tasks:
     - name: copy from master to client
       copy: src=/root/file.txt dest=/root/filecopy.txt mode=0777 
