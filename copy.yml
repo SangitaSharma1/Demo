@@ -3,4 +3,4 @@
   remote_user: root
   tasks:
     - name: copy from master to client
-      copy: src=/var/lib/awx/projects/_10__copyyml/file.txt dest=/home/filecopy.txt mode=0777 
+      copy: src=/var/lib/awx/projects/_10__copyyml/file.txt dest=/tmp/filecopy.txt mode=0777 
