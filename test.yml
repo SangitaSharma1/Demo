@@ -1,7 +1,6 @@
 ---
 - hosts: all
-  become: yes
 
   tasks:
   - name: file Creation
-    file: path=/home/test.txt state=touch owner=root group=root mode=777
+    file: path=/home/testtttttt.txt state=touch owner=root group=root mode=777
