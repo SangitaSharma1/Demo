@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo su -;
-cd /root;
+# cd /root;
 awk '/dir/' <(ls -lrth)| awk '{print $9}' > /tmp/reponames.txt;
 awk -v sz="$(wc -l < /tmp/reponames.txt)" 'NR<=(sz-4)' /tmp/reponames.txt  > /tmp/finalized.txt;
 
