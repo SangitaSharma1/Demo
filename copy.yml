@@ -3,4 +3,6 @@
   
   tasks:
     - name: copy from master to client
-      script: /var/lib/awx/projects/_10__copyyml/sample.sh
+      synchronize:
+         src:/var/lib/awx/projects/_10__copyyml/file.txt
+         dest:/tmp/file.txt 
