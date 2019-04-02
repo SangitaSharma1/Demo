@@ -4,5 +4,5 @@
   tasks:
     - name: copy from master to client
       synchronize:
-        src:/var/lib/awx/projects/_10__copyyml/file.txt
-        dest:/tmp/file.txt 
+        src: /var/lib/awx/projects/_10__copyyml/file.txt
+        dest: /tmp/file.txt 
