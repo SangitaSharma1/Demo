@@ -4,4 +4,4 @@
   tasks:
     - name: copy from master to client
       shell:
-        cmd: cp src=/var/lib/awx/projects/_10__copyyml/file.txt dest=/tmp/dirAnsible/file.txt
+        cmd: cp src=/root/file.txt dest=/tmp/dirAnsible/file.txt
