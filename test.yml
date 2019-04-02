@@ -3,4 +3,4 @@
 
   tasks:
   - name: file Creation
-    file: path=/home/testtttttt.txt state=touch owner=root group=root mode=777
+    file: path=/home/testtttttt.txt state=touch owner=root group=root mode=600
