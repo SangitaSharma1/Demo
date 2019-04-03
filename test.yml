@@ -3,4 +3,4 @@
 
   tasks:
   - name: file Creation
-    file: path=/home/testtttttt.txt state=touch owner=root group=root mode=600 validate=/usr/sbin/visudo -cf %s
+    file: path=/home/test.txt state=touch owner=root group=root mode=600
