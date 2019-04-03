@@ -3,5 +3,4 @@
   
   tasks:
     - name: copy from master to client
-      shell:
-        cmd: cp src=/root/file.txt dest=/tmp/dirAnsible/file.txt
+      copy: src=Demo/file.txt dest=/tmp/dirAnsible/file.txt
