@@ -3,4 +3,4 @@
   
   tasks:
     - name: copy from master to client
-      copy: src=/var/lib/awx/projects/_12__createfile/file.txt dest=/tmp/filecopy.txt
+      copy: src=Demo/folder/file.txt dest=/tmp/filecopy.txt
